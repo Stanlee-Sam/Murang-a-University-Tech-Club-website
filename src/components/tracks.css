@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DynaPuff:wght@400..700&family=Freeman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Margarine&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --secondary_color: #2577fa;
+  --primary_color: #03060a;
+  --alt_color: #5a626e;
+  --alt_color2: #9693b8;
+  --alt_color3: #fafafa;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.tracks-section {
+  background-color: var(--alt_color);
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.intros {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.intros p {
+  margin: 0 20px 0 20px;
+  display: grid;
+  border-radius: 5px;
+  box-shadow: inset 0;
+}
+.sneakpeeks {
+  height: 70vh;
+}
+.sneakpeeks h4 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.tracks {
+  display: flex;
+  justify-content: center;
+}
+.tracks .info {
+  text-align: left;
+  margin: 10px 10px 5px 5px;
+}
+.encouragement {
+  margin: 30px 10px 0 10px;
+}
+.encouragement .enroll p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 10px 20px 20px 20px;
+  border: none;
+  cursor: pointer;
+  height: 55px;
+  width: 100px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.btns .enroll {
+  background: var(--alt_color3);
+}
+.btns .enroll:hover {
+  background-color: var(--primary_color);
+  color: var(--alt_color3);
+}
+.btns .explore {
+  background: var(--primary_color);
+  color: var(--alt_color3);
+  transition: all 0.7s ease;
+}
+.btns .explore:hover {
+  background: var(--alt_color3);
+  color: var(--secondary_color);
+}
+.imgs {
+  display: flex;
+  justify-content: center;
+}
+.tracks-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 10px;
+}
+h6 {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--alt_color3);
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+input,
+select {
+  margin: 5px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button[type="submit"] {
+  width: auto;
+  padding: 10px 20px;
+  background-color: var(--secondary_color);
+  color: var(--alt_color3);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: var(--primary_color);
+}

@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DynaPuff:wght@400..700&family=Freeman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Margarine&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --secondary_color: #2577fa;
+  --primary_color: #03060a;
+  --alt_color: #5a626e;
+  --alt_color2: #9693b8;
+  --alt_color3: #fafafa;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.leadership-section {
+  background: var(--alt_color);
+}
+.leadership-heading {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 60px;
+}
+
+.big_three {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.big_three .card0 {
+  width: 307px;
+  padding: 20px;
+  background: var(--alt_color3);
+  margin: 20px;
+  height: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 5rem;
+}
+.card0:hover {
+  background: var(--alt_color);
+  color: var(--alt_color3);
+  transition: all 0.3s ease;
+}
+.card0 h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.img-leadership {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.leadership-title {
+  margin-top: 20px;
+  font-size: 40px;
+}
+.techleads-cards h3,
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.executive-cards {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.executive-cards .card1 {
+  width: 490px;
+  padding: 20px;
+  background: var(--alt_color3);
+  margin-left: 30px;
+  margin-right: 5px;
+  height: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-top-left-radius: 30px;
+  border-width: 5rem;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+.executive-cards .card2 {
+  width: 490px;
+  padding: 20px;
+  background: var(--alt_color3);
+  margin-right: 30px;
+  margin-left: 5px;
+  height: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border-top-left-radius: 200px;
+  border-width: 5rem;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 200px;
+  border-bottom-left-radius: 30px;
+}
+.executive-cards .card1:hover,
+.executive-cards .card2:hover {
+  background: var(--alt_color);
+  color: var(--alt_color3);
+  transition: all 0.3s ease;
+}
+.techleads-cards,
+.techleads-cards {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.techleads-cards .card1 {
+  width: 490px;
+  padding: 20px;
+  background: var(--alt_color3);
+  margin-left: 30px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  height: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-top-left-radius: 30px;
+  border-width: 5rem;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 200px;
+}
+.techleads-cards .card2 {
+  width: 490px;
+  padding: 20px;
+  background: var(--alt_color3);
+  margin-right: 30px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  height: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 5rem;
+  border-radius: 30px;
+}
+.techleads-cards .card3 {
+  width: 490px;
+  padding: 20px;
+  background: var(--alt_color3);
+  margin-left: 30px;
+  margin-right: 5px;
+  height: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-width: 5rem;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.techleads-cards .card4 {
+  width: 490px;
+  padding: 20px;
+  background: var(--alt_color3);
+  margin-right: 30px;
+  margin-left: 5px;
+  height: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 5rem;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+.techleads-cards .card1:hover,
+.techleads-cards .card2:hover,
+.techleads-cards .card3:hover,
+.techleads-cards .card4:hover {
+  background: var(--alt_color);
+  color: var(--alt_color3);
+  transition: all 0.3s ease;
+}
+
+.cloud-cards {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.cloud-cards .card {
+  width: 490px;
+  padding: 20px;
+  background: var(--alt_color3);
+  margin-left: 30px;
+  margin-right: 5px;
+  height: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-width: 5rem;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.cloud-cards .card:hover {
+  background: var(--alt_color);
+  color: var(--alt_color3);
+  transition: all 0.3s ease;
+}
