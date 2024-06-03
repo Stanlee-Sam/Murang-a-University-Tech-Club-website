@@ -1,8 +1,9 @@
 import Navbar from "./components/Navbar/Navbar";
 import Leadership from "./components/leadership";
-import Hero from "./components/home/hero";
+// import Hero from "./components/home/hero";
 import Tracks from "./components/tracks";
 import Events from "./components/events";
+import Home from "./components/Home";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -12,7 +13,7 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Home />} />
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/tracks" element={<Tracks />} />
           <Route path="/events" element={<Events />} />

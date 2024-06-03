@@ -2,7 +2,7 @@ export const reviews = [
   {
     id: 1,
     name: "John Morgan",
-    img: "/public/testimonial students/student1.jpeg",
+    img: "/dist/testimonial students/student1.jpeg",
     review:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perferendis reiciendis voluptate delectus mollitia ut facilis, beatae, eius officia quos autem maxime voluptates eligendi assumenda similique! Praesentium est blanditiis quo?",
   },
