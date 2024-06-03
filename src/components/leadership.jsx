@@ -18,7 +18,7 @@ const Leadership = () => {
               alt=""
             />
             <h3>Dr John</h3>
-            <p>Chief Patron</p>
+            <p>Patron</p>
           </div>
           <div className="card0">
             <img
@@ -26,8 +26,8 @@ const Leadership = () => {
               src="../public/officials/student1.jpeg"
               alt=""
             />
-            <h3>John</h3>
-            <p>Chief Patron</p>
+            <h3>Victory</h3>
+            <p>Chairperson</p>
           </div>
           <div className="card0">
             <img
@@ -35,8 +35,8 @@ const Leadership = () => {
               src="../public/officials/student1.jpeg"
               alt=""
             />
-            <h3>John</h3>
-            <p>Chief Patron</p>
+            <h3>Allan</h3>
+            <p>Vice Chairperson</p>
           </div>
         </div>
         <h3 className="leadership-title">Executive Officers</h3>
@@ -50,8 +50,8 @@ const Leadership = () => {
                 src="../public/officials/student1.jpeg"
                 alt=""
               />
-              <h3>John</h3>
-              <p>Chief Patron</p>
+              <h3>Bridget</h3>
+              <p>Secretary</p>
             </div>
             <div className="card2">
               <img
@@ -59,8 +59,8 @@ const Leadership = () => {
                 src="../public/officials/student1.jpeg"
                 alt=""
               />
-              <h3>John</h3>
-              <p>Chief Patron</p>
+              <h3>Ruth</h3>
+              <p>Treasurer</p>
             </div>
           </div>
         </div>
@@ -78,8 +78,8 @@ const Leadership = () => {
                 src="../public/officials/student1.jpeg"
                 alt=""
               />
-              <h3>John</h3>
-              <p>Chief Patron</p>
+              <h3>Webster</h3>
+              <p>Cyber Security lead</p>
             </div>
             <div className="card2">
               <img
@@ -87,8 +87,8 @@ const Leadership = () => {
                 src="../public/officials/student1.jpeg"
                 alt=""
               />
-              <h3>John</h3>
-              <p>Chief Patron</p>
+              <h3>Manase</h3>
+              <p>UI/UX Lead</p>
             </div>
           </div>
           <div className="techleads-cards">
@@ -98,8 +98,8 @@ const Leadership = () => {
                 src="../public/officials/student1.jpeg"
                 alt=""
               />
-              <h3>John</h3>
-              <p>Chief Patron</p>
+              <h3>Carolyne</h3>
+              <p>Web Dev Lead</p>
             </div>
             <div className="card4">
               <img
@@ -107,8 +107,8 @@ const Leadership = () => {
                 src="../public/officials/student1.jpeg"
                 alt=""
               />
-              <h3>John</h3>
-              <p>Chief Patron</p>
+              <h3>Stanley</h3>
+              <p>Mobile App Dev Lead</p>
             </div>
           </div>
         </div>
@@ -122,8 +122,8 @@ const Leadership = () => {
                 src="../public/officials/student1.jpeg"
                 alt=""
               />
-              <h3>John</h3>
-              <p>Chief Patron</p>
+              <h3>Paul</h3>
+              <p>Cloud Engineering Lead</p>
             </div>
             <div className="card">
               <img
@@ -131,8 +131,8 @@ const Leadership = () => {
                 src="../public/officials/student1.jpeg"
                 alt=""
               />
-              <h3>John</h3>
-              <p>Chief Patron</p>
+              <h3>Evyonn</h3>
+              <p>Power Platform Lead</p>
             </div>
           </div>
         </div>

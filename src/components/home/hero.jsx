@@ -1,6 +1,4 @@
 import "./hero.css";
-import About from "../About/about";
-import Testimonial from "../Navbar/testimonial";
 
 const Hero = () => {
   return (
@@ -19,8 +17,6 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <About />
-      <Testimonial />
     </>
   );
 };
