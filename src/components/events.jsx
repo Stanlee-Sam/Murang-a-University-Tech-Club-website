@@ -1,5 +1,12 @@
 import "./events.css";
 
+import cyberSecurity from '/public/Cybersecurity.jpeg'
+import UIUX from '/public/UIUX.jpeg'
+import WebDev from '/public/Web Development.jpeg'
+import MobileDev from '/public/Mobile dev.jpeg'
+import Cloud from '/public/Cloud Computing.jpeg'
+import Power from '/public/Power platform.jpeg'
+
 const Events = () => {
   return (
     <section className="events-section">
@@ -11,7 +18,7 @@ const Events = () => {
       <div className="container">
         <div className="item-container">
           <div className="img-container">
-            <img src="/public/Cybersecurity.jpeg" alt="" />
+            <img src= {cyberSecurity }alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -39,7 +46,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="/public/UIUX.jpeg" alt="" />
+            <img src={UIUX} alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -67,7 +74,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="/public/Web Development.jpeg" alt="" />
+            <img src={WebDev} alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -95,7 +102,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="/public/Mobile dev.jpeg" alt="" />
+            <img src={MobileDev} alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -123,7 +130,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="/public/Cloud Computing.jpeg" alt="" />
+            <img src={Cloud} alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -151,7 +158,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="/public/Power platform.jpeg" alt="" />
+            <img src={Power} alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
