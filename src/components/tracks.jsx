@@ -1,5 +1,5 @@
 import "./tracks.css";
-import React, { useState } from "react";
+import  { useState } from "react";
 
 const Tracks = () => {
   const [formData, setFormData] = useState({
@@ -22,8 +22,7 @@ const Tracks = () => {
   };
   return (
     <section className="tracks-section">
-      <br />
-      <br />
+      
       <br />
       <br />
       <h1>Tracks</h1>
