@@ -71,3 +71,41 @@ section {
   color: var(--primary_color);
   background-color: var(--alt_color3);
 }
+
+
+/*Media query break points
+  /* 2xl */
+  @media (max-width: 1536px) {
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+     .main h1 {
+      font-size: 30px;
+    }
+    .main p {
+      font-size: 10px;
+    }
+    .hero-button {
+      font-size: 10px;
+      width: 100px;
+      height: 30px;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+  }
+  

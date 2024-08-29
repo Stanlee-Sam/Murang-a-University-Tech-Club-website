@@ -11,7 +11,7 @@
 .testimonial-container p {
   color: var(--alt_color3);
 }
-.title {
+.title h1 {
   text-align: center;
   padding-bottom: 30px;
   font-size: 40px;
@@ -67,3 +67,39 @@
   color: yellow;
   font-size: 1.1rem;
 }
+/*Media query break points
+  /* 2xl */
+  @media (max-width: 1536px) {
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .title h1 {
+      font-size: 25px;
+    }
+    
+    .title p {
+      font-size: 10px;
+    }
+    .slider-container .content .text {
+      font-size: 0.8rem;
+    }
+
+  }
+  
