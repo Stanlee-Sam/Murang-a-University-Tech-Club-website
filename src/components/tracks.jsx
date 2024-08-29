@@ -1,5 +1,9 @@
 import "./tracks.css";
 import  { useState } from "react";
+import cyberSecurity from '/public/Cybersecurity.jpeg'
+import code from '/public/code.jpeg'
+
+
 
 const Tracks = () => {
   const [formData, setFormData] = useState({
@@ -45,10 +49,10 @@ const Tracks = () => {
       <div className="sneakpeeks">
         <h4>Track Sneak Peeks</h4>
         <div className="imgs">
-          <img className="tracks-img" src="../public/code.jpeg" alt="" />
+          <img className="tracks-img" src={code} alt="" />
           <img
             className="tracks-img"
-            src="../public/cybersecurity.jpeg"
+            src={cyberSecurity}
             alt=""
           />
         </div>

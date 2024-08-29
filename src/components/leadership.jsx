@@ -1,5 +1,7 @@
 // import { officials } from "../assets/officialsData";
 import "./leadership.css";
+import student from '/public/testimonialStudents/student1.jpeg'
+
 
 const Leadership = () => {
   return (
@@ -11,7 +13,7 @@ const Leadership = () => {
           <div className="card0">
             <img
               className="img-leadership"
-              src="../public/officials/student1.jpeg"
+              src={student}
               alt=""
             />
             <h3>Dr John</h3>
@@ -20,7 +22,7 @@ const Leadership = () => {
           <div className="card0">
             <img
               className="img-leadership"
-              src="../public/officials/student1.jpeg"
+              src={student}
               alt=""
             />
             <h3>Victory</h3>
@@ -29,7 +31,7 @@ const Leadership = () => {
           <div className="card0">
             <img
               className="img-leadership"
-              src="../public/officials/student1.jpeg"
+              src={student}
               alt=""
             />
             <h3>Allan</h3>
@@ -44,7 +46,7 @@ const Leadership = () => {
             <div className="card1">
               <img
                 className="img-leadership"
-                src="../public/officials/student1.jpeg"
+                src={student}
                 alt=""
               />
               <h3>Bridget</h3>
@@ -53,7 +55,7 @@ const Leadership = () => {
             <div className="card2">
               <img
                 className="img-leadership"
-                src="../public/officials/student1.jpeg"
+                src={student}
                 alt=""
               />
               <h3>Ruth</h3>
@@ -72,7 +74,7 @@ const Leadership = () => {
             <div className="card1">
               <img
                 className="img-leadership"
-                src="../public/officials/student1.jpeg"
+                src={student}
                 alt=""
               />
               <h3>Webster</h3>
@@ -81,7 +83,7 @@ const Leadership = () => {
             <div className="card2">
               <img
                 className="img-leadership"
-                src="../public/officials/student1.jpeg"
+                src={student}
                 alt=""
               />
               <h3>Manase</h3>
@@ -92,7 +94,7 @@ const Leadership = () => {
             <div className="card3">
               <img
                 className="img-leadership"
-                src="../public/officials/student1.jpeg"
+                src={student}
                 alt=""
               />
               <h3>Carolyne</h3>
@@ -101,7 +103,7 @@ const Leadership = () => {
             <div className="card4">
               <img
                 className="img-leadership"
-                src="../public/officials/student1.jpeg"
+                src={student}
                 alt=""
               />
               <h3>Stanley</h3>
@@ -116,7 +118,7 @@ const Leadership = () => {
             <div className="card">
               <img
                 className="img-leadership"
-                src="../public/officials/student1.jpeg"
+                src={student}
                 alt=""
               />
               <h3>Paul</h3>
