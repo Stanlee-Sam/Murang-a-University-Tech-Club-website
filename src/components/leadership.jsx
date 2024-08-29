@@ -5,8 +5,8 @@ const Leadership = () => {
   return (
     <>
       <section className="leadership-section">
-        <br />
-        <br />
+        {/* <br /> */}
+        {/* <br /> */}
         <br />
         <br />
         <h1 className="leadership-heading">CTRL FREAKS</h1>

@@ -24,6 +24,7 @@
 
 .big_three {
   display: inline-flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
 }
@@ -66,12 +67,14 @@ p {
   margin-bottom: 20px;
 }
 .executive-cards {
-  display: inline-flex;
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
   width: 100%;
 }
 .executive-cards .card1 {
-  width: 490px;
+  width: 307px;
   padding: 20px;
   background: var(--alt_color3);
   margin-left: 30px;
@@ -88,7 +91,7 @@ p {
   border-bottom-left-radius: 200px;
 }
 .executive-cards .card2 {
-  width: 490px;
+  width: 307px;
   padding: 20px;
   background: var(--alt_color3);
   margin-right: 30px;
@@ -111,20 +114,26 @@ p {
   color: var(--alt_color3);
   transition: all 0.3s ease;
 }
+.techleads {
+  gap: 20px;
+}
 .techleads-cards,
 .techleads-cards {
   display: inline-flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   width: 100%;
+  gap: 30px;
+  margin-bottom: 20px;
 }
 
 .techleads-cards .card1 {
-  width: 490px;
+  width: 307px;
   padding: 20px;
   background: var(--alt_color3);
-  margin-left: 30px;
+  /* margin-left: 30px;
   margin-right: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
   height: 300px;
   display: grid;
   justify-content: center;
@@ -137,12 +146,12 @@ p {
   border-bottom-left-radius: 200px;
 }
 .techleads-cards .card2 {
-  width: 490px;
+  width: 307px;
   padding: 20px;
   background: var(--alt_color3);
-  margin-right: 30px;
+  /* margin-right: 30px;
   margin-left: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
   height: 300px;
   display: grid;
   justify-content: center;
@@ -153,11 +162,11 @@ p {
   border-radius: 30px;
 }
 .techleads-cards .card3 {
-  width: 490px;
+  width: 307px;
   padding: 20px;
   background: var(--alt_color3);
-  margin-left: 30px;
-  margin-right: 5px;
+  /* margin-left: 30px;
+  margin-right: 5px; */
   height: 300px;
   display: grid;
   justify-content: center;
@@ -170,11 +179,11 @@ p {
   border-bottom-left-radius: 30px;
 }
 .techleads-cards .card4 {
-  width: 490px;
+  width: 307px;
   padding: 20px;
   background: var(--alt_color3);
-  margin-right: 30px;
-  margin-left: 5px;
+  /* margin-right: 30px;
+  margin-left: 5px; */
   height: 300px;
   display: grid;
   justify-content: center;
@@ -198,16 +207,19 @@ p {
 
 .cloud-cards {
   display: inline-flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   margin-bottom: 20px;
+  gap: 20px;
 }
 .cloud-cards .card {
-  width: 490px;
+  width: 307px;
   padding: 20px;
   background: var(--alt_color3);
-  margin-left: 30px;
-  margin-right: 5px;
+  /* margin-left: 30px;
+  margin-right: 5px; */
   height: 300px;
   display: grid;
   justify-content: center;
@@ -224,3 +236,45 @@ p {
   color: var(--alt_color3);
   transition: all 0.3s ease;
 }
+
+/*Media query break points
+  /* 2xl */
+  @media (max-width: 1536px) {
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .leadership-heading {
+       font-size: 28px;
+ 
+    }
+    .card0 h3{
+       font-size: 20px;
+    }
+    .leadership-title {
+       font-size: 25px;
+    }
+    .executive-cards .card1 h3{
+       font-size: 20px;
+
+    }
+    .leadership-section p {
+       font-size: 13px;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+  }
