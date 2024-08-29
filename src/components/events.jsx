@@ -11,7 +11,7 @@ const Events = () => {
       <div className="container">
         <div className="item-container">
           <div className="img-container">
-            <img src="../public/Cybersecurity.jpeg" alt="" />
+            <img src="/public/Cybersecurity.jpeg" alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -39,7 +39,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="../../public/UIUX.jpeg" alt="" />
+            <img src="/public/UIUX.jpeg" alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -67,7 +67,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="../../public/Web Development.jpeg" alt="" />
+            <img src="/public/Web Development.jpeg" alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -95,7 +95,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="../../public/Mobile dev.jpeg" alt="" />
+            <img src="/public/Mobile dev.jpeg" alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -123,7 +123,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="../../public/Cloud Computing.jpeg" alt="" />
+            <img src="/public/Cloud Computing.jpeg" alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
@@ -151,7 +151,7 @@ const Events = () => {
         </div>
         <div className="item-container">
           <div className="img-container">
-            <img src="../../public/Power platform.jpeg" alt="" />
+            <img src="/public/Power platform.jpeg" alt="" />
           </div>
           <div className="body-container">
             <div className="overlay"></div>
