@@ -83,6 +83,9 @@ h1 {
   padding: 8px;
   height: 70vh;
 }
+/* .title{
+  padding-top: 10px;
+} */
 .title,
 .price {
   color: var(--secondary_color);
@@ -152,8 +155,15 @@ span {
 }
 .item-container img {
   width: 100%;
-  height: 70vh;
-  object-fit: cover;
+  height: 100%;
+  object-fit: fill;
   object-position: center;
   border-radius: 10px;
 }
+ /* xs */
+ @media (max-width: 430px) {
+  .event-info {
+    padding-bottom: 150px;
+  }
+    
+ }

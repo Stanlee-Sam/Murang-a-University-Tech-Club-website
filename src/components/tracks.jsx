@@ -23,8 +23,7 @@ const Tracks = () => {
   return (
     <section className="tracks-section">
       
-      <br />
-      <br />
+      
       <h1>Tracks</h1>
       <h3>Tracks Madness: Choices Galore!</h3>
       <div className="intros">

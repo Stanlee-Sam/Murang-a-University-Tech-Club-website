@@ -5,10 +5,7 @@ const Leadership = () => {
   return (
     <>
       <section className="leadership-section">
-        {/* <br /> */}
-        {/* <br /> */}
-        <br />
-        <br />
+       
         <h1 className="leadership-heading">CTRL FREAKS</h1>
         <div className="big_three">
           <div className="card0">

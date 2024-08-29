@@ -3,10 +3,8 @@ import "./events.css";
 const Events = () => {
   return (
     <section className="events-section">
-      <br />
-      <br />
-      <br />
-      <br />
+     
+    
 
       <h1>Events</h1>
 
